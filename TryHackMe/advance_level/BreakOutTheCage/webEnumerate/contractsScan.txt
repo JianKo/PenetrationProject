@@ -1,0 +1,14 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.98.26/contracts/FolderNotInUse
+[+] Threads:        64
+[+] Wordlist:       /Users/scops/tools/wordlist/directories/directory_guessing_list.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     jpeg,jpg,txt,zip,html,php
+[+] Timeout:        10s
+===============================================================
+2020/10/01 12:56:54 Starting gobuster
+===============================================================

@@ -1,0 +1,20 @@
+# Nmap 7.80 scan initiated Sat Aug  8 20:24:11 2020 as: nmap -sC -sV -oN ScanningDay4.txt 10.10.158.130
+Nmap scan report for 10.10.158.130
+Host is up (0.30s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE VERSION
+22/tcp  open  ssh     OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 40:ea:d1:b4:ce:35:06:03:ce:2e:7c:d0:22:5b:6b:a9 (RSA)
+|   256 82:ef:25:c8:00:95:d3:06:e7:52:33:8e:7c:39:90:e0 (ECDSA)
+|_  256 98:54:36:12:98:ea:8d:f6:3a:ee:7d:2e:62:06:4a:24 (ED25519)
+111/tcp open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|_  100000  3,4          111/udp6  rpcbind
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug  8 20:24:33 2020 -- 1 IP address (1 host up) scanned in 22.67 seconds

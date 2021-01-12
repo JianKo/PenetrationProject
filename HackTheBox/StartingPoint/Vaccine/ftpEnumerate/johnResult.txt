@@ -1,0 +1,12 @@
+Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Node numbers 1-4 of 4 (fork)
+Press 'q' or Ctrl-C to abort, almost any other key for status
+741852963        (backup.zip)
+1 1g 0:00:00:00 DONE (2020-10-03 20:54) 100.0g/s 25600p/s 25600c/s 25600C/s football1..simpleplan
+Waiting for 3 children to terminate
+3 0g 0:00:00:01 DONE (2020-10-03 20:54) 0g/s 2025Kp/s 2025Kc/s 2025KC/s  mar ..*7¡Vamos!
+4 0g 0:00:00:01 DONE (2020-10-03 20:54) 0g/s 2025Kp/s 2025Kc/s 2025KC/s  lez-06.ie168
+2 0g 0:00:00:01 DONE (2020-10-03 20:54) 0g/s 2025Kp/s 2025Kc/s 2025KC/s  brian89.a6_123
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed

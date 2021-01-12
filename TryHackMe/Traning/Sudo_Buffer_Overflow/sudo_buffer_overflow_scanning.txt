@@ -1,0 +1,19 @@
+# Nmap 7.80 scan initiated Tue Jun  2 14:02:33 2020 as: nmap -sC -sV -oN sudo_buffer_overflow_scanning.txt 10.10.101.49
+Nmap scan report for 10.10.101.49
+Host is up (0.27s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE VERSION
+2222/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 e0:90:ab:18:cf:33:8e:a0:80:56:88:4e:f5:d1:08:e5 (RSA)
+|   256 23:2f:66:45:46:95:64:86:cc:0d:df:de:c5:96:d6:1a (ECDSA)
+|_  256 64:15:bf:d5:7c:80:ed:87:d8:7d:73:d1:75:f1:d1:80 (ED25519)
+4444/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 e8:b0:de:c4:6e:2b:85:6b:84:8f:02:a1:e6:cc:50:ed (RSA)
+|   256 f1:da:c3:75:d4:a4:99:c7:ec:b7:e3:47:bf:42:82:d9 (ECDSA)
+|_  256 79:dc:28:3f:19:9a:2c:34:4b:be:9f:fc:3a:82:79:3b (ED25519)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jun  2 14:03:04 2020 -- 1 IP address (1 host up) scanned in 31.42 seconds

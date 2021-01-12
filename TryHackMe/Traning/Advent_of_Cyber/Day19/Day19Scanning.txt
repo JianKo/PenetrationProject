@@ -1,0 +1,2 @@
+# Nmap 7.80 scan initiated Fri Jun 19 15:15:17 2020 as: nmap -p3000 -sC -sV -oN Day19Scanning.txt 10.10.71.172
+# Nmap done at Fri Jun 19 15:15:21 2020 -- 1 IP address (0 hosts up) scanned in 3.36 seconds

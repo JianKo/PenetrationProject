@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Sat Aug 15 15:32:55 2020 as: nmap -p22-1000 -sC -sV -oN Day3Scanning.txt 10.10.104.196
+Nmap scan report for 10.10.104.196
+Host is up (0.33s latency).
+Not shown: 978 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Sense and Sensitivity
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Aug 15 15:33:30 2020 -- 1 IP address (1 host up) scanned in 35.87 seconds

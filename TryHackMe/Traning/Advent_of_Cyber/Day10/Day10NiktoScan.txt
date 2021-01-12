@@ -1,0 +1,19 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.67.134
++ Target Hostname:    10.10.67.134
++ Target Port:        80
++ Start Time:         2020-06-13 04:15:09 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Apache-Coyote/1.1
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site 
++ Root page / redirects to: showcase.action
+
++ No CGI Directories found (use '-C all' to force check all possible dirs)
+
++ Uncommon header 'nikto-added-cve-2017-5638' found, with contents: 42
++ /: Site appears vulnerable to the 'strutshock' vulnerability (http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638).
++ /index.action: Site appears vulnerable to the 'strutshock' vulnerability (http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638).
++ /login.action: Site appears vulnerable to the 'strutshock' vulnerability (http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5638).

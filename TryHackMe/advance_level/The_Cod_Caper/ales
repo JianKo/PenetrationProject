@@ -1,0 +1,48 @@
+HTTP request [#1]:
+POST /administrator.php HTTP/1.1
+Cache-control: no-cache
+User-agent: sqlmap/1.4.5#stable (http://sqlmap.org)
+Host: 10.10.223.60
+Accept: */*
+Accept-encoding: gzip,deflate
+Content-type: application/x-www-form-urlencoded; charset=utf-8
+Content-length: 19
+Connection: close
+
+username=&password=
+
+HTTP response [#1] (200 OK):
+Date: Wed, 27 May 2020 06:49:34 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 254
+Connection: close
+Content-Type: text/html; charset=UTF-8
+URI: http://10.10.223.60:80/administrator.php
+
+ Try Again<br><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+</head>
+<body>
+
+<h1>Administrator Login</h1>
+<form action="administrator.php" method="POST">
+    <p>Username:  </p><input type="text" name="username">
+    <br>
+    <br>
+    <p>Password:  </p><input type="text" name="password">
+    <br>
+    <br>
+    <button type="submit">Login</button>
+</form>
+
+
+</body>
+</html>
+
+############################################################################
+

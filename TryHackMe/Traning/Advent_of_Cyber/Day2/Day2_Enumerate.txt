@@ -1,0 +1,56 @@
+# Nmap 7.80 scan initiated Sun Jun  7 11:15:31 2020 as: *nmap -p22-9000 -sC -sV -oN Day2.txt 10.10.72.63
+Nmap scan report for 10.10.72.63
+Host is up (0.28s latency).
+Not shown: 8976 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 94:62:96:f9:be:3c:62:06:a0:ef:58:cb:3f:dc:b1:1b (RSA)
+|   256 ea:ab:6d:bf:c1:fd:95:7a:4e:fd:09:27:f7:9b:cd:78 (ECDSA)
+|_  256 79:9e:0f:02:12:c2:25:97:69:77:50:aa:f6:5c:48:f7 (ED25519)
+111/tcp  open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version    port/proto  service
+|   100000  2,3,4        111/tcp   rpcbind
+|   100000  2,3,4        111/udp   rpcbind
+|   100000  3,4          111/tcp6  rpcbind
+|   100000  3,4          111/udp6  rpcbind
+|   100024  1          45353/udp   status
+|   100024  1          47873/udp6  status
+|   100024  1          48809/tcp   status
+|_  100024  1          51061/tcp6  status
+3000/tcp open  http    Node.js Express framework
+| http-title: Arctic Forum | Login
+|_Requested resource was /login
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Jun  7 11:23:36 2020 -- 1 IP address (1 host up) scanned in 484.99 seconds
+
+
+*gobuster dir -u http://10.10.72.63:3000/ -w directory_guessing_list.txt
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.72.63:3000/
+[+] Threads:        10
+[+] Wordlist:       directory_guessing_list.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/06/07 11:22:32 Starting gobuster
+===============================================================
+/home (Status: 302)
+/login (Status: 200)
+/admin (Status: 302)
+/assets (Status: 301)
+/css (Status: 301)
+/js (Status: 301)
+/logout (Status: 302)
+/sysadmin (Status: 200)
+Progress: 4595 / 207644 (2.21%)^C
+[!] Keyboard interrupt detected, terminating.
+===============================================================
+2020/06/07 11:25:46 Finished
+===============================================================

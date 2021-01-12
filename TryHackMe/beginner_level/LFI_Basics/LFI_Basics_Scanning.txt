@@ -1,0 +1,11 @@
+# Nmap 7.80 scan initiated Mon Jun 29 09:34:15 2020 as: nmap -sC -sV -oN LFI_Basics_Scanning.txt 10.10.58.229
+Nmap scan report for 10.10.58.229
+Host is up (0.24s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title:  LFI Learning 
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jun 29 09:34:46 2020 -- 1 IP address (1 host up) scanned in 31.57 seconds

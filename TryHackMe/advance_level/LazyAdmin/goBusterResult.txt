@@ -1,0 +1,20 @@
+gobuster dir -w /Users/scops/tools/wordlist/directory_guessing_list.txt -u http://10.10.188.157/content -t 16
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.188.157/content
+[+] Threads:        16
+[+] Wordlist:       /Users/scops/tools/wordlist/directory_guessing_list.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Timeout:        10s
+===============================================================
+2020/09/20 14:33:45 Starting gobuster
+===============================================================
+/images (Status: 301)
+/js (Status: 301)
+/inc (Status: 301)
+/as (Status: 301)
+/_themes (Status: 301)
+/attachment (Status: 301)

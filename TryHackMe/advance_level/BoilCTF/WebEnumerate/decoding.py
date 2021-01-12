@@ -1,0 +1,20 @@
+
+
+string = "079 084 108 105 077 068 089 050 077 071 078 107 079 084 086 104 090 071 086 104 077 122 073 051 089 122 085 048 077 084 103 121 089 109 070 104 078 084 069 049 079 068 081 075"
+strList = string.split(" ")
+
+stringTemp = ""
+
+for x in strList:
+	stringTemp += chr(int(x))
+
+print(stringTemp)
+
+import base64
+stringTemp = base64.b64encode(stringTemp)
+print(stringTemp)
+
+
+import hashlib
+result = hashlib.md5(stringTemp.decode()).hexdigest()
+print(result)

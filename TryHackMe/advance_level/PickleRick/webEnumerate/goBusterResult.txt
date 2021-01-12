@@ -1,0 +1,24 @@
+ gobuster dir -w /Users/scops/tools/wordlist/directories/directory_guessing_list.txt -u http://10.10.32.170/ -x txt,png,jpeg,zip,php -t 32
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://10.10.32.170/
+[+] Threads:        32
+[+] Wordlist:       /Users/scops/tools/wordlist/directories/directory_guessing_list.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     txt,png,jpeg,zip,php
+[+] Timeout:        10s
+===============================================================
+2020/10/03 23:57:53 Starting gobuster
+===============================================================
+/login.php (Status: 200)
+/assets (Status: 301)
+/portal.php (Status: 302)
+/robots.txt (Status: 200)
+Progress: 11288 / 207644 (5.44%)^C
+[!] Keyboard interrupt detected, terminating.
+===============================================================
+2020/10/04 00:14:07 Finished
+===============================================================
