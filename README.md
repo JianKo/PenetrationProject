@@ -28,31 +28,55 @@
    - The find command
    - Web Scanning
    - Sudo Security Bypass
-   - Sudo Buffer Overflow
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - [x] Sudo Buffer Overflow
+=======
+   - [x]Sudo Buffer Overflow
+>>>>>>> cd68aab... Update README.md
+=======
+   - [x] Sudo Buffer Overflow
+>>>>>>> e6b2b31... Update README.md
 
 ## Challenge
 
 #### Basic
  - TryHackMe
    - All In One
-   - Basic Pentesting
+   - [x] Basic Pentesting
    - ColddBox:Easy 
    - Vulnversity
-   - Inclusion
-   - Simple CTF
+   - [x] Inclusion
+   - [x] Simple CTF
    - OhSINT
-   - Blue
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - [x] Blue
+=======
+   - [x]Blue
+>>>>>>> cd68aab... Update README.md
+=======
+   - [x] Blue
+>>>>>>> 13f09db... Update README.md
    - LFI Basic
    - OWASP Top 10
    - Mr Robot CTF
-   - Root Me
+   - [x] RootMe
    - Lian_Yu
-   - LazyAdmin
+   - [x] LazyAdmin
    - Source
-   - Bolt
+   - [x] Bolt
    - wgel CTF
    - Brooklyn Nine Nine
-   - Anonforce
+<<<<<<< HEAD
+<<<<<<< HEAD
+   - [x] Anonforce
+=======
+   - [x]Anonforce
+>>>>>>> cd68aab... Update README.md
+=======
+   - [x] Anonforce
+>>>>>>> e6b2b31... Update README.md
    - Dav
    - StartUp
 
@@ -60,7 +84,7 @@
  - TryHacMe
    - Agent Sudo
    - The Cod Caper
-   - Overpass 
+   - [x]Overpass 
    - Kenobi
    - Easy Peasy
    - Ignite
@@ -69,8 +93,8 @@
    - Pickle Rick
    - Gotta Catch'em All!
    - Library
-   - StartUp
-   - Chill Hack
+   - [x] StartUp
+   - [x] Chill Hack
 
 #### Advanced
   - TryHackMe
