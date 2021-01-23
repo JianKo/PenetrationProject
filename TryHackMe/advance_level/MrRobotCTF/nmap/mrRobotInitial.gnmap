@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Sat Jan 23 17:43:43 2021 as: nmap -sC -sV -oA nmap/mrRobotInitial 10.10.73.12
+Host: 10.10.73.12 ()	Status: Up
+Host: 10.10.73.12 ()	Ports: 22/closed/tcp//ssh///, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+# Nmap done at Sat Jan 23 17:44:50 2021 -- 1 IP address (1 host up) scanned in 67.69 seconds
