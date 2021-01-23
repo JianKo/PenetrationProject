@@ -20,41 +20,41 @@
    - AttackerKB
 
 ## Fundermental 
-- TryHackMe
- - LinuxPrivEsc
- - MetasPloit
- - Nmap
- - Introductory Researching
- - The find command
- - Web Scanning
- - Sudo Security Bypass
- - Sudo Buffer Overflow
+ - TryHackMe
+   - LinuxPrivEsc
+   - MetasPloit
+   - Nmap
+   - Introductory Researching
+   - The find command
+   - Web Scanning
+   - Sudo Security Bypass
+   - Sudo Buffer Overflow
 
 ## Challenge
 
 #### Basic
  - TryHackMe
-  - All In One
-  - Basic Pentesting
-  - ColddBox:Easy 
-  - Vulnversity
-  - Inclusion
-  - Simple CTF
-  - OhSINT
-  - Blue
-  - LFI Basic
-  - OWASP Top 10
-  - Mr Robot CTF
-  - Root Me
-  - Lian_Yu
-  - LazyAdmin
-  - Source
-  - Bolt
-  - wgel CTF
-  - Brooklyn Nine Nine
-  - Anonforce
-  - Dav
-  - StartUp
+   - All In One
+   - Basic Pentesting
+   - ColddBox:Easy 
+   - Vulnversity
+   - Inclusion
+   - Simple CTF
+   - OhSINT
+   - Blue
+   - LFI Basic
+   - OWASP Top 10
+   - Mr Robot CTF
+   - Root Me
+   - Lian_Yu
+   - LazyAdmin
+   - Source
+   - Bolt
+   - wgel CTF
+   - Brooklyn Nine Nine
+   - Anonforce
+   - Dav
+   - StartUp
 
 #### Intermidiate
  - TryHacMe
