@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Fri Jan 29 12:52:23 2021 as: nmap -sC -sV -oA nmap/initial 10.10.249.68
+Host: 10.10.249.68 ()	Status: Up
+Host: 10.10.249.68 ()	Ports: 8081/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/	Ignored State: closed (999)
+# Nmap done at Fri Jan 29 12:52:42 2021 -- 1 IP address (1 host up) scanned in 19.59 seconds
