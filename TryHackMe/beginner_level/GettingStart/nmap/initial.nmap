@@ -1,0 +1,14 @@
+# Nmap 7.80 scan initiated Mon Feb  1 09:15:02 2021 as: nmap -sC -sV -oA nmap/initial 10.10.202.141
+Nmap scan report for basic.thm (10.10.202.141)
+Host is up (0.26s latency).
+Not shown: 997 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    Node.js (Express middleware)
+|_http-title: BFFs
+3000/tcp open  http    Node.js (Express middleware)
+|_http-title: BFFs
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Feb  1 09:16:01 2021 -- 1 IP address (1 host up) scanned in 59.67 seconds

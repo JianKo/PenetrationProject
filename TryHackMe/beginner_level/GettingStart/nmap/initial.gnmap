@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Mon Feb  1 09:15:02 2021 as: nmap -sC -sV -oA nmap/initial 10.10.202.141
+Host: 10.10.202.141 (basic.thm)	Status: Up
+Host: 10.10.202.141 (basic.thm)	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Node.js (Express middleware)/, 3000/open/tcp//http//Node.js (Express middleware)/	Ignored State: closed (997)
+# Nmap done at Mon Feb  1 09:16:01 2021 -- 1 IP address (1 host up) scanned in 59.67 seconds
