@@ -34,4 +34,4 @@ User wes may run the following commands on ubuntu-xenial:
 	- sudo /usr/bin/python3 /opt/development/test_module.py
 
 #### Resource
-- https://medium.com/python-features/what-happens-behind-the-scenes-when-we-import-a-module-in-python-2775da153790s
+- https://medium.com/python-features/what-happens-behind-the-scenes-when-we-import-a-module-in-python-2775da153790
